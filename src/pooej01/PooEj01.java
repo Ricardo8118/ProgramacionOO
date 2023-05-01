@@ -5,6 +5,8 @@
  */
 package pooej01;
 
+import Entidad.Persona;
+
 /**
  *
  * @author LENOVO
@@ -16,6 +18,22 @@ public class PooEj01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Persona primeraPersona = new Persona();
+        Persona segundaPersona = new Persona("Mariano");
+        
+        
+        
+       primeraPersona.setNombre("Lucio");
+        System.out.println(  segundaPersona.getNombre());
+        
+                
+                
+                
+                
+        
+        
+        
     }
     
 }
